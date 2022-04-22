@@ -1,0 +1,48 @@
+*{
+    padding: 0px; margin: 0px;box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 60%;
+    height: 610px;
+    background-color: cyan;
+    margin-top: 10px;
+}
+.heading {
+    width: 90%;
+    border: 4px double black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 100px;
+}
+.heading p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.data{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.data .table td{
+    width :200px;
+    padding: 6px;
+}
+
+.data .table #bold{
+    font-weight :bold;
+}

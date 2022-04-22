@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="container" >
+            <div class="form">
+                <div class="heading">
+                    <p>Student Registration Form</p>
+                </div>
+                <div class="data">
+                    <form >
+                        <table class="table" >
+                            <tr>
+                                <td id="bold">
+                                    Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="fname" id="fname" placeholder="Enter Full Name" />
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td id="bold">
+                                    Father's Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="father" id="fname" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Mother's Name :
+                                </td>
+                                <td>
+                                    <input type="text" name="mother" id="fname" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Phone Number :
+                                </td>
+                                <td>
+                                    <input type="text" name="phone" id="fname"  placeholder="017xxxxxxx" maxlength="10" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Email :
+                                </td>
+                                <td>
+                                    <input pattern="[^@\s]+@[^@\s]+\.[^@\s]+" name="emaill" id="fname" placeholder="sample@example.com" required/>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Gender :
+                                </td>
+                                <td>
+                                    <input type="radio" id="fname" name="genderchoice" value="Male" />Male
+                                    <input type="radio" id="fname" name="genderchoice" value="Female" />Female
+                                    <input type="radio" id="fname" name="genderchoice" value="Other"/>Other
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Date of Birth :
+                                </td>
+                                <td>
+                                    <input type="date" name="dob" id="fname" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Address :
+                                </td>
+                                <td>
+                                    <input type="text" name="address" id="fname" maxlength="200" placeholder="Street:-   House:-  Road:-" size="50" />
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Blood Group :
+                                </td>
+                                <td>
+                                    <select name="blood" id="blood">
+                                        <option value="" disabled selected>Select</option>
+                                        <option value="A+">A+</option>
+                                        <option value="A-">A-</option>
+                                        <option value="B+">B+</option>
+                                        <option value="B-">B-</option>
+                                        <option value="O+">O+</option>
+                                        <option value="O-">O-</option>
+                                        <option value="AB+">AB+</option>
+                                        <option value="AB-">AB-</option>
+                                    </select>
+                
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Department :
+                                </td>
+                                <td>
+                                    <input type="radio" id="fname" name="department" value="CSE" />CSE
+                                    <input type="radio" id="fname" name="department" value="EEE" />EEE
+                                    <input type="radio" id="fname" name="department" value="BBA"/>BBA
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Course
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="course" id="fname">C 
+                                    <input type="checkbox" name="course" id="fname" >C++ 
+                                    <input type="checkbox" name="course" id="fname" >JAVA
+                                    <input type="checkbox" name="course" id="fname" >AI
+                                    <input type="checkbox" name="course" id="fname" >Machine Learning
+                                    <input type="checkbox" name="course" id="fname" >Robotics
+                                </td>
+                            </tr>
+                            <tr>
+                                <td id="bold">
+                                    Photo:
+                                </td>
+                                <td>
+                                    <input type="file" name="photo" id="fname">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="submit"/>
+                                    <input type="reset" value="reset"/>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
