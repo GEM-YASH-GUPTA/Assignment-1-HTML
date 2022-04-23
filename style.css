@@ -4,16 +4,28 @@
 
 .container{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
+    height: 1000px;
 }
-
+header{
+    background-color: #1a7d3b;
+    text-align: center;
+    font-size: 50px;
+    height: 70px;
+    text-underline-offset: 9px;
+    margin-bottom: 20px;
+    color: #F8EA8C;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
 .form{
     width: 60%;
-    height: 610px;
+    height: 630px;
     background-color: cyan;
     margin-top: 10px;
+    margin-left: 21%;
+    padding: 10px;
 }
 .heading {
     width: 90%;
@@ -45,4 +57,26 @@
 
 .data .table #bold{
     font-weight :bold;
+}
+
+.record{
+    margin-top: 50px;
+}
+.record p{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.recorddata{
+    border-collapse: collapse;
+    font-size: large;
+    width:60%;
+    margin-left: 21%;
+}
+.recorddata th , .recorddata td{
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
 }
