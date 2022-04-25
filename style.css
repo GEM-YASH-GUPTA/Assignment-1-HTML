@@ -3,31 +3,34 @@
 }
 
 .container{
-    width: 100%;
+    width: auto;
     display:block;
     height: 1000px;
+    top: 0;
 }
 header{
     background-color: #1a7d3b;
     text-align: center;
     font-size: 50px;
     height: 70px;
+    width: 100%;
     text-underline-offset: 9px;
     margin-bottom: 20px;
     color: #F8EA8C;
-    position: sticky;
+    position: fixed !important; 
     top: 0;
     overflow: hidden;
+    padding-bottom: 40px;
 }
 .form{
+    margin-top: 100px;
     width: 60%;
     height: 630px;
     background-color: cyan;
-    margin-top: 10px;
     margin-left: 21%;
     padding: 10px;
 }
-.heading {
+.heading{
     width: 90%;
     border: 4px double black;
     display: flex;
@@ -45,7 +48,6 @@ header{
 
 .data{
     display: flex;
-    /* justify-content: center; */
     margin-left: 40px;
     margin-top: 50px;
 }
@@ -79,4 +81,89 @@ header{
     text-align: center;
     padding: 8px;
     border: 1px solid black;
+}
+
+.headings{
+    text-align: center;
+    margin-top: 30px;
+}
+.demos{
+    width: 100%;
+}
+.demoposition{
+    height: 100px;
+    width: 100%;
+    margin:10px;
+}
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+    width: 90%;
+  }
+.static {
+    position: static;
+    border: 3px solid #73AD21;
+    width: 90%;
+  }
+
+.float{
+    height: 150px;
+    margin: 20px 0px;
+    width: auto;
+}
+
+.left{
+      float: left;
+      background-color: skyblue;
+      width: 80px;
+      height: 80px;
+      margin-top: 5px;
+}
+.right{
+      float: right;
+      background-color: rgb(8, 241, 203);
+      width: 80px;
+      height: 80px;
+      margin-top: 5px;
+}
+
+.display{
+      height: 220px;
+      margin-bottom: 40px;
+      width: auto;
+}
+
+#myDIV {
+    height:80px;
+    background-color:#FFFFFF;
+    margin-top: 20px;
+    border: 10px black; 
+    width: auto;
+}
+
+#myDIV span {
+    background:lightblue;
+    display:inline;
+    width: auto;
+}
+
+#myDIV2 {
+    height:80px;
+    background-color:#FFFFFF;
+    width: auto;
+}
+
+#myDIV2 span {
+    background:lightblue;
+    display:block;
+    width: auto;
+}
+
+h2.a {
+    visibility: visible;
+}
+  
+h2.b {
+    visibility: hidden;
 }
